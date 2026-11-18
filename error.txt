@@ -1,0 +1,1310 @@
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ProotManager.kt:12:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/data/editor/EditorSessionPersistenceCodec.kt:6:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/data/notebook/JsonNotebookParser.kt:10:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/data/notebook/JsonNotebookSerializer.kt:7:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/di/AppModule.kt:34:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:117:30: Unresolved reference 'rememberIdeWorkspace'. [kotlin]
+val workspaceBootstrap = rememberIdeWorkspace(appContext)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:120:9: Unresolved reference 'WorkspacePreparingScreen'. [kotlin]
+WorkspacePreparingScreen(workspaceBootstrap.error) { workspaceBootstrap.retry() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:124:24: Unresolved reference 'rememberIdeHostActivity'. [kotlin]
+val hostActivity = rememberIdeHostActivity(context)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:128:26: Unresolved reference 'rememberIdeRootViewModels'. [kotlin]
+val rootViewModels = rememberIdeRootViewModels(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:136:23: Property delegate must have a 'getValue(Nothing?, KProperty0<??? (Unknown type for type parameter T)>)' method. None of the following functions is applicable: fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T [kotlin]
+val projectsState by projectsViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:136:26: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val projectsState by projectsViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:136:50: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val projectsState by projectsViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:141:23: Property delegate must have a 'getValue(Nothing?, KProperty0<??? (Unknown type for type parameter T)>)' method. None of the following functions is applicable: fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T [kotlin]
+val settingsState by settingsViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:141:26: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val settingsState by settingsViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:141:50: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val settingsState by settingsViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:142:5: Unresolved reference 'IdeWindowThemeEffect'. [kotlin]
+IdeWindowThemeEffect(activity = hostActivity, themeId = settingsState.themeId)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:142:75: Unresolved reference 'themeId'. [kotlin]
+IdeWindowThemeEffect(activity = hostActivity, themeId = settingsState.themeId)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:146:24: Property delegate must have a 'getValue(Nothing?, KProperty0<??? (Unknown type for type parameter T)>)' method. None of the following functions is applicable: fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T [kotlin]
+val runtimeUiState by runtimeUiViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:146:27: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val runtimeUiState by runtimeUiViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:146:52: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val runtimeUiState by runtimeUiViewModel.state.collectAsState()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:147:38: Unresolved reference 'displayOpen'. [kotlin]
+val displayOpen = runtimeUiState.displayOpen
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:148:44: Unresolved reference 'displayUserHidden'. [kotlin]
+val displayUserHidden = runtimeUiState.displayUserHidden
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:149:36: Unresolved reference 'frameMode'. [kotlin]
+val frameMode = runtimeUiState.frameMode
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:150:39: Unresolved reference 'frameProject'. [kotlin]
+val frameProject = runtimeUiState.frameProject
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:151:37: Unresolved reference 'displayGeneration'. [kotlin]
+val displayGen = runtimeUiState.displayGeneration
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:152:36: Unresolved reference 'webServerGuess'. [kotlin]
+val webStatic = runtimeUiState.webServerGuess
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:153:37: Unresolved reference 'webLiveUrl'. [kotlin]
+val webLiveUrl = runtimeUiState.webLiveUrl
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:154:38: Unresolved reference 'browserOpen'. [kotlin]
+val browserOpen = runtimeUiState.browserOpen
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:155:37: Unresolved reference 'pendingBrowserChoiceUrl'. [kotlin]
+val openChoice = runtimeUiState.pendingBrowserChoiceUrl
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:156:41: Unresolved reference 'rememberBrowserChoice'. [kotlin]
+val rememberChoice = runtimeUiState.rememberBrowserChoice
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:173:25: Argument type mismatch: actual type is 'Any', but 'File' was expected. [kotlin]
+workspace = workspace,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:176:21: Unresolved reference 'prefs'. [kotlin]
+prefs = prefs,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:223:5: Unresolved reference 'CrashReportDialog'. [kotlin]
+CrashReportDialog()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:269:17: Unresolved reference 'ideFocus'. [kotlin]
+ideFocus.clearFocus(force = true)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:273:17: Unresolved reference 'ideKeyboard'. [kotlin]
+ideKeyboard?.hide()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:280:5: Unresolved reference 'IdeHostLifecycleEffects'. [kotlin]
+IdeHostLifecycleEffects(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:283:21: Cannot infer type for value parameter 'saveFiles'. Specify it explicitly. [kotlin]
+persist = { saveFiles, markForRestore ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:283:32: Cannot infer type for value parameter 'markForRestore'. Specify it explicitly. [kotlin]
+persist = { saveFiles, markForRestore ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:310:5: Unresolved reference 'RunConflictDialog'. [kotlin]
+RunConflictDialog()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:312:5: Unresolved reference 'BrowserChoiceDialog'. [kotlin]
+BrowserChoiceDialog()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:345:21: Argument type mismatch: actual type is 'Any', but 'File' was expected. [kotlin]
+workspace = workspace,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:362:5: Unresolved reference 'MissingProjectDialog'. [kotlin]
+MissingProjectDialog(projectsViewModel, autoRecoveryManager)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:374:5: Unresolved reference 'ImportSelectionDialog'. [kotlin]
+ImportSelectionDialog(editorSession)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:386:31: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+val curVenv = curProject?.let { projectVenvGuestPath(it.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:386:37: Unresolved reference 'projectVenvGuestPath'. [kotlin]
+val curVenv = curProject?.let { projectVenvGuestPath(it.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:388:66: Unresolved reference 'venvBuildingProjects'. [kotlin]
+val projectVenvBusy = curProjectKey != null && projectsState.venvBuildingProjects.contains(curProjectKey)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:389:40: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+val projectVenvReady = curProject?.let { venvPythonReady(it.dir) } == true
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:389:46: Unresolved reference 'venvPythonReady'. [kotlin]
+val projectVenvReady = curProject?.let { venvPythonReady(it.dir) } == true
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:400:29: Unresolved reference 'projectVenvGuestPath'. [kotlin]
+val guestVenv = projectVenvGuestPath(curProject.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:453:17: Unresolved reference 'ScreenHost'. [kotlin]
+ScreenHost(drawerShift, pythonLspController, settingsViewModel)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:455:17: Unresolved reference 'IdeBottomPanel'. [kotlin]
+IdeBottomPanel(shell, projectsViewModel, pythonLspController, problemErrorCount, problemWarningCount)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:465:26: Unresolved reference 'drawerDrag' on receiver of type 'Modifier'. [kotlin]
+.drawerDrag(drawerShift, ideScope, false, drawerCommitPx)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:474:13: Unresolved reference 'FileTreePanel'. [kotlin]
+FileTreePanel(drawerShift, drawerCommitPx)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:476:9: Unresolved reference 'DisplayOverlay'. [kotlin]
+DisplayOverlay()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:477:9: Unresolved reference 'BrowserOverlay'. [kotlin]
+BrowserOverlay()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/IdeRoot.kt:478:9: Unresolved reference 'SettingsOverlayHost'. [kotlin]
+SettingsOverlayHost(settingsViewModel, projectsViewModel)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:148:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Raw JSON", Color(IdeTheme.ACCENT)) { onRaw() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:187:39: Unresolved reference 'cells'. [kotlin]
+fun selectedCell(): NbCell? = doc.cells.getOrNull(selected.coerceIn(0, (doc.cells.size - 1).coerceAtLeast(0)))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:187:81: Unresolved reference 'cells'. [kotlin]
+fun selectedCell(): NbCell? = doc.cells.getOrNull(selected.coerceIn(0, (doc.cells.size - 1).coerceAtLeast(0)))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:191:21: Unresolved reference 'cells'. [kotlin]
+val i = doc.cells.indexOf(c)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:197:22: Unresolved reference 'cells'. [kotlin]
+if (i == doc.cells.size - 1) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:199:28: Unresolved reference 'cells'. [kotlin]
+selected = doc.cells.indexOf(n)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:212:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("▶ Run", Color(IdeTheme.ACCENT)) { runSelectedAndAdvance() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:213:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Run all", Color(IdeTheme.TEXT)) { ctl.run(doc.cells.toList()) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:213:71: Unresolved reference 'cells'. [kotlin]
+PillButton("Run all", Color(IdeTheme.TEXT)) { ctl.run(doc.cells.toList()) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:214:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("■", Color(IdeTheme.ERROR)) { ctl.interrupt() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:215:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("↻", Color(IdeTheme.WARN)) { ctl.restart() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:216:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("+ Code", Color(IdeTheme.TEXT)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:218:32: Unresolved reference 'cells'. [kotlin]
+selected = doc.cells.indexOf(n)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:220:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("+ Text", Color(IdeTheme.TEXT)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:222:32: Unresolved reference 'cells'. [kotlin]
+selected = doc.cells.indexOf(n)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:223:33: Unresolved reference 'id'. [kotlin]
+editingMd.add(n.id)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:225:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("↑", Color(IdeTheme.TEXT)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:229:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("↓", Color(IdeTheme.TEXT)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:231:60: Unresolved reference 'cells'. [kotlin]
+selected = (selected + 1).coerceAtMost(doc.cells.size - 1)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:233:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Clear out", Color(IdeTheme.DIM)) { selectedCell()?.let { ctl.clearOutputs(it) } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:234:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Delete", Color(IdeTheme.ERROR)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:236:53: Unresolved reference 'cells'. [kotlin]
+selected = selected.coerceIn(0, doc.cells.size - 1)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:246:13: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Raw JSON", Color(IdeTheme.DIM)) { onRaw() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:308:30: Unresolved reference 'cells'. [kotlin]
+itemsIndexed(doc.cells, key = { _, c -> c.id }) { idx, cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:308:45: Cannot infer type for implicit value parameter 'it'. Specify it explicitly. [kotlin]
+itemsIndexed(doc.cells, key = { _, c -> c.id }) { idx, cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:308:48: Cannot infer type for value parameter 'c'. Specify it explicitly. [kotlin]
+itemsIndexed(doc.cells, key = { _, c -> c.id }) { idx, cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:308:55: Unresolved reference 'id'. [kotlin]
+itemsIndexed(doc.cells, key = { _, c -> c.id }) { idx, cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:308:63: Cannot infer type for value parameter 'idx'. Specify it explicitly. [kotlin]
+itemsIndexed(doc.cells, key = { _, c -> c.id }) { idx, cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:308:68: Cannot infer type for value parameter 'cell'. Specify it explicitly. [kotlin]
+itemsIndexed(doc.cells, key = { _, c -> c.id }) { idx, cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:309:41: Unresolved reference 'cells'. [kotlin]
+val precedingCode = doc.cells.take(idx)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:310:31: Unresolved reference 'it'. [kotlin]
+.filter { it.type == "code" }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:311:43: Unresolved reference 'it'. [kotlin]
+.joinToString("\n") { it.source }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:312:38: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+val completionFile = remember(tab.file.absolutePath, cell.id) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:312:75: Unresolved reference 'id'. [kotlin]
+val completionFile = remember(tab.file.absolutePath, cell.id) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:313:109: Unresolved reference 'id'. [kotlin]
+File(project.dir, ".pyspace/notebook-completion/${tab.file.nameWithoutExtension}_${cell.id}.py")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:315:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+CellView(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:318:63: Unresolved reference 'id'. [kotlin]
+editingMarkdown = editingMd.contains(cell.id),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:325:59: Unresolved reference 'id'. [kotlin]
+onEditMarkdown = { editingMd.add(cell.id) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:334:21: Unresolved reference 'PillButton'. [kotlin]
+PillButton("+ Code cell", Color(IdeTheme.ACCENT)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:335:45: Unresolved reference 'cells'. [kotlin]
+val n = ctl.add(doc.cells.size, "code")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:336:40: Unresolved reference 'cells'. [kotlin]
+selected = doc.cells.indexOf(n)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:339:21: Unresolved reference 'PillButton'. [kotlin]
+PillButton("+ Text cell", Color(IdeTheme.TEXT)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:340:45: Unresolved reference 'cells'. [kotlin]
+val n = ctl.add(doc.cells.size, "markdown")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:341:40: Unresolved reference 'cells'. [kotlin]
+selected = doc.cells.indexOf(n)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NativeNotebook.kt:342:41: Unresolved reference 'id'. [kotlin]
+editingMd.add(n.id)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NbKernel.kt:166:39: Unresolved reference 'projectPythonBin'. [kotlin]
+private fun pythonBin(): String = projectPythonBin(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/NbKernel.kt:190:29: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestPath = guestProjectPath(project)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:329:21: Unresolved reference 'caretSession'. [kotlin]
+flashLine = caretSession.flashLine,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:823:10: Unresolved reference 'editorSurfaceInteraction' on receiver of type 'Modifier'. [kotlin]
+.editorSurfaceInteraction(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:826:39: Cannot infer type for value parameter 'size'. Specify it explicitly. [kotlin]
+onViewportSizeChanged = { size ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:827:61: Function invocation 'width(...)' expected. [kotlin]
+viewportSession.updateViewport(width = size.width, height = size.height)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:827:82: Function invocation 'height(...)' expected. [kotlin]
+viewportSession.updateViewport(width = size.width, height = size.height)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:830:47: Unresolved reference 'it'. [kotlin]
+surfaceCoordinates.viewport = it
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:835:46: Unresolved reference 'it'. [kotlin]
+surfaceCoordinates.gesture = it
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:842:27: Cannot infer type for value parameter 'base'. Specify it explicitly. [kotlin]
+pinchZoom = { base ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:843:22: Unresolved reference 'editorPinchZoomGesture'. [kotlin]
+base.editorPinchZoomGesture(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:853:29: Cannot infer type for value parameter 'base'. Specify it explicitly. [kotlin]
+tapObserver = { base ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:854:22: Unresolved reference 'editorTapObserver'. [kotlin]
+base.editorTapObserver(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:865:69: Unresolved reference 'it'. [kotlin]
+setFirstTapPending = { caretSession.markFirstTapPending(it) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:866:60: Unresolved reference 'it'. [kotlin]
+setHoverTapInProgress = { hoverTapInProgress = it },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:868:28: Cannot infer type for value parameter 'sourceText'. Specify it explicitly. [kotlin]
+placeCaret = { sourceText, offset ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:868:40: Cannot infer type for value parameter 'offset'. Specify it explicitly. [kotlin]
+placeCaret = { sourceText, offset ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:871:30: Cannot infer type for value parameter 'line'. Specify it explicitly. [kotlin]
+reportCursor = { line, column -> reportCursor(line, column) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:871:36: Cannot infer type for value parameter 'column'. Specify it explicitly. [kotlin]
+reportCursor = { line, column -> reportCursor(line, column) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:872:40: Cannot infer type for value parameter 'position'. Specify it explicitly. [kotlin]
+showHoverDocumentation = { position -> latestShowHoverDocumentation.value(position) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:879:24: Argument type mismatch: actual type is 'Comparator<uninferred T (of fun <T> Comparator<T>.then)>', but 'Modifier' was expected. [kotlin]
+modifier = Modifier
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:883:18: Unresolved reference 'holdViewportOnBringIntoView' on receiver of type 'Modifier'. [kotlin]
+.holdViewportOnBringIntoView { Offset(hScroll.value.toFloat(), vScroll.value.toFloat()) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/PyEditor.kt:886:18: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+.then(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/RunStrip.kt:61:21: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Browser", Color(IdeTheme.ACCENT)) { onBrowser(url) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/RunStrip.kt:65:21: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Display", Color(IdeTheme.TEXT)) { onDisplay() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/RunStrip.kt:68:17: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Stop", Color(IdeTheme.ERROR)) { onStop(r) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/TestExplorer.kt:174:87: Unresolved reference 'matchesTest'. [kotlin]
+TextButton(onClick = { controller?.selectAll(state.cases.filter { matchesTest(it, query, statusFilter) }.map { it.id }.toSet(), true) }, contentPadding = PaddingValues(horizontal = 4.dp)) { Text("Select", fontSize = 9.sp) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/TestExplorer.kt:182:52: Unresolved reference 'matchesTest'. [kotlin]
+val visible = state.cases.filter { matchesTest(it, query, statusFilter) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/TestExplorer.kt:416:99: Unresolved reference 'guestProjectPath'. [kotlin]
+if (state.coveragePercent.isNotBlank() && project != null) Text("HTML coverage: ${guestProjectPath(project)}/htmlcov/index.html", color = Color(IdeTheme.DIM), fontSize = 8.sp, modifier = Modifier.clickable { clipboard.setText(AnnotatedString("${guestProjectPath(project)}/htmlcov/index.html")) })
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/TestExplorer.kt:416:262: Unresolved reference 'guestProjectPath'. [kotlin]
+if (state.coveragePercent.isNotBlank() && project != null) Text("HTML coverage: ${guestProjectPath(project)}/htmlcov/index.html", color = Color(IdeTheme.DIM), fontSize = 8.sp, modifier = Modifier.clickable { clipboard.setText(AnnotatedString("${guestProjectPath(project)}/htmlcov/index.html")) })
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/CodeIntelligenceRepository.kt:62:22: Unresolved reference 'isHiddenTreeDir'. [kotlin]
+!isHiddenTreeDir(directory.name) && files < 150 && total < 400 && scannedNodes < MAX_SCANNED_NODES
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/CodeIntelligenceRepository.kt:107:22: Unresolved reference 'isHiddenTreeDir'. [kotlin]
+!isHiddenTreeDir(directory.name) && files < 100 && out.size < 60 && scannedNodes < MAX_SCANNED_NODES
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspImportResolver.kt:56:32: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestProject = guestProjectPath(project).trimEnd('/')
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspSessionTransport.kt:5:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:60:46: Unresolved reference 'guestProjectPath'. [kotlin]
+if (!root.isDirectory) return listOf(guestProjectPath(project))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:101:29: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestRoot = guestProjectPath(project).trimEnd('/')
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:112:25: Unresolved reference 'projectVenvGuestPath'. [kotlin]
+val venvGuest = projectVenvGuestPath(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:113:33: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val python = venvGuest?.takeIf { venvPythonReady(project.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:113:40: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val python = venvGuest?.takeIf { venvPythonReady(project.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:113:42: Unresolved reference 'venvPythonReady'. [kotlin]
+val python = venvGuest?.takeIf { venvPythonReady(project.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:114:15: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+?.let { "$it/bin/python" } ?: projectPythonInterpreterGuestPath(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:114:15: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+?.let { "$it/bin/python" } ?: projectPythonInterpreterGuestPath(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:114:19: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+?.let { "$it/bin/python" } ?: projectPythonInterpreterGuestPath(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:114:43: Unresolved reference 'projectPythonInterpreterGuestPath'. [kotlin]
+?.let { "$it/bin/python" } ?: projectPythonInterpreterGuestPath(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:116:34: Unresolved reference 'projectVenvName'. [kotlin]
+File(project.dir, "${projectVenvName(project.dir)}/pyvenv.cfg")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:119:23: Cannot infer type for type parameter 'A'. Specify it explicitly. [kotlin]
+return python to "${python}|${projectPythonVersionId(project.dir)}|$cfg"
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:119:23: Cannot infer type for type parameter 'B'. Specify it explicitly. [kotlin]
+return python to "${python}|${projectPythonVersionId(project.dir)}|$cfg"
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:119:23: Candidate 'fun <A, B> A.to(that: B): Pair<A, B>' is inapplicable because of a receiver type mismatch. [kotlin]
+return python to "${python}|${projectPythonVersionId(project.dir)}|$cfg"
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/LspWorkspaceConfiguration.kt:119:39: Unresolved reference 'projectPythonVersionId'. [kotlin]
+return python to "${python}|${projectPythonVersionId(project.dir)}|$cfg"
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonAutoImportCatalog.kt:2:30: Unresolved reference 'Image'. [kotlin]
+import com.codespace.ide.ide.Image
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonHoverDocumentation.kt:2:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:27:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:132:17: Unresolved reference 'venvPythonReady'. [kotlin]
+if (venvPythonReady(project.dir)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:419:29: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestRoot = guestProjectPath(project).trimEnd('/')
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:478:25: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestRoot = guestProjectPath(project).trimEnd('/')
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:824:25: Unresolved reference 'refreshProjectImportRoots'. [kotlin]
+refreshProjectImportRoots(refreshed)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:969:28: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestProject = guestProjectPath(project)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:992:18: Unresolved reference 'put'. [kotlin]
+.put("workspaceFolders", JSONArray().put(JSONObject().put("uri", rootUri).put("name", project.name)))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspController.kt:1102:21: Unresolved reference 'guestProjectPath'. [kotlin]
+val guest = guestProjectPath(project).trimEnd('/') + "/" + relative.replace(File.separatorChar, '/')
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonLspSession.kt:13:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonSyntaxDiagnostics.kt:229:39: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestProject = shellQuote(guestProjectPath(project))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonSyntaxDiagnostics.kt:230:20: Unresolved reference 'projectVenvName'. [kotlin]
+val venv = projectVenvName(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonSyntaxDiagnostics.kt:233:62: Unresolved reference 'venvPythonReady'. [kotlin]
+Regex("^[A-Za-z0-9_.-]{1,64}$").matches(venv) && venvPythonReady(project.dir, venv)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/codeintel/PythonWorkspaceReferenceResolver.kt:43:29: Unresolved reference 'guestProjectPath'. [kotlin]
+val guestRoot = guestProjectPath(project).trimEnd('/')
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/debug/DapDebugSession.kt:246:31: Unresolved reference 'guestProjectPath'. [kotlin]
+val projectPath = guestProjectPath(project)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/debug/DapDebugSession.kt:249:24: Unresolved reference 'projectVenvGuestPath'. [kotlin]
+val venv = projectVenvGuestPath(project.dir)?.let { "$it/bin/python" }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/debug/DapDebugSession.kt:249:59: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val venv = projectVenvGuestPath(project.dir)?.let { "$it/bin/python" }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/debug/DapDebugSession.kt:249:59: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+val venv = projectVenvGuestPath(project.dir)?.let { "$it/bin/python" }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/debug/DapDebugSession.kt:249:63: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val venv = projectVenvGuestPath(project.dir)?.let { "$it/bin/python" }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/debug/DapDebugSession.kt:250:34: Unresolved reference 'projectPythonInterpreterGuestPath'. [kotlin]
+val python = venv ?: projectPythonInterpreterGuestPath(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/debug/DebugController.kt:195:39: Unresolved reference 'guestProjectPath'. [kotlin]
+private fun guestRoot(): String = guestProjectPath(project).trimEnd('/') + "/"
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:357:49: Unresolved reference 'IdeTheme'. [kotlin]
+Modifier.fillMaxSize().background(Color(IdeTheme.BG))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:368:66: Unresolved reference 'IdeTheme'. [kotlin]
+title.ifBlank { "Live view" }, color = Color(IdeTheme.TEXT),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:378:35: Unresolved reference 'IdeTheme'. [kotlin]
+color = Color(IdeTheme.DIM), fontSize = 11.sp
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:381:38: Unresolved reference 'IdeTheme'. [kotlin]
+PillButton("Hide", Color(IdeTheme.TEXT)) { onMinimize() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:383:64: Unresolved reference 'IdeTheme'. [kotlin]
+PillButton(if (running) "Stop" else "Close", Color(IdeTheme.ERROR)) { onStop() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:390:37: Unresolved reference 'IdeTheme'. [kotlin]
+.border(1.dp, Color(IdeTheme.LINE), RoundedCornerShape(14.dp))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:391:35: Unresolved reference 'IdeTheme'. [kotlin]
+.background(Color(IdeTheme.PANEL))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:521:56: Unresolved reference 'IdeTheme'. [kotlin]
+Text(display.status, color = Color(IdeTheme.DIM), fontSize = 13.sp)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:531:35: Unresolved reference 'IdeTheme'. [kotlin]
+color = Color(IdeTheme.DIM), fontSize = 11.sp,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:537:35: Unresolved reference 'IdeTheme'. [kotlin]
+color = Color(IdeTheme.TEXT), fontSize = 11.sp
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:546:27: Unresolved reference 'IdeTheme'. [kotlin]
+color = Color(IdeTheme.DIM), fontSize = 11.sp,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:574:53: Unresolved reference 'IdeTheme'. [kotlin]
+textStyle = TextStyle(color = Color(IdeTheme.TEXT), fontSize = 15.sp),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:575:48: Unresolved reference 'IdeTheme'. [kotlin]
+cursorBrush = SolidColor(Color(IdeTheme.ACCENT)),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:577:39: Unresolved reference 'IdeTheme'. [kotlin]
+.background(Color(IdeTheme.CARD), RoundedCornerShape(10.dp))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:578:41: Unresolved reference 'IdeTheme'. [kotlin]
+.border(1.dp, Color(IdeTheme.LINE), RoundedCornerShape(10.dp))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:583:97: Unresolved reference 'IdeTheme'. [kotlin]
+Text("Type here: each letter is sent as a key press", color = Color(IdeTheme.DIM), fontSize = 13.sp)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:600:33: Unresolved reference 'IdeTheme'. [kotlin]
+.border(1.dp, Color(IdeTheme.LINE), RoundedCornerShape(20.dp))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:601:31: Unresolved reference 'IdeTheme'. [kotlin]
+.background(Color(IdeTheme.CARD))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:609:32: Unresolved reference 'IdeTheme'. [kotlin]
+val fg = if (active) Color(IdeTheme.BG) else Color(IdeTheme.TEXT)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:609:56: Unresolved reference 'IdeTheme'. [kotlin]
+val fg = if (active) Color(IdeTheme.BG) else Color(IdeTheme.TEXT)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:614:43: Unresolved reference 'IdeTheme'. [kotlin]
+.background(if (active) Color(IdeTheme.ACCENT) else Color(IdeTheme.CARD))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:614:71: Unresolved reference 'IdeTheme'. [kotlin]
+.background(if (active) Color(IdeTheme.ACCENT) else Color(IdeTheme.CARD))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:620:73: Unresolved reference 'IdeTheme'. [kotlin]
+Text(label, fontSize = 10.sp, color = if (active) fg else Color(IdeTheme.DIM), maxLines = 1)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:634:26: Unresolved reference 'IdeTheme'. [kotlin]
+primary -> Color(IdeTheme.ACCENT)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:635:25: Unresolved reference 'IdeTheme'. [kotlin]
+active -> Color(IdeTheme.VIOLET)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:636:23: Unresolved reference 'IdeTheme'. [kotlin]
+else -> Color(IdeTheme.CARD)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:638:33: Unresolved reference 'IdeTheme'. [kotlin]
+val fg = if (primary) Color(IdeTheme.BG) else Color(IdeTheme.TEXT)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:638:57: Unresolved reference 'IdeTheme'. [kotlin]
+val fg = if (primary) Color(IdeTheme.BG) else Color(IdeTheme.TEXT)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:643:33: Unresolved reference 'IdeTheme'. [kotlin]
+.border(1.dp, Color(IdeTheme.LINE), RoundedCornerShape(12.dp))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/display/FrameView.kt:649:73: Unresolved reference 'IdeTheme'. [kotlin]
+Text(hint, fontSize = 10.sp, color = if (primary) fg else Color(IdeTheme.DIM), maxLines = 1)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/editor/EditorSession.kt:17:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/editor/IdeEditor.kt:82:30: Unresolved reference 'PillButton'. [kotlin]
+import com.codespace.ide.ide.PillButton
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/editor/IdeEditor.kt:103:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/editor/IdeEditor.kt:752:29: Unresolved reference 'PillButton'. [kotlin]
+PillButton("Notebook view", Color(IdeTheme.ACCENT)) { rawNotebooks.remove(nbPath) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/editor/IdeEditor.kt:1049:25: No value passed for parameter 'repository'. [kotlin]
+ProjectPackagesContent(project = session.project, proot = proot)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/editor/IdeEditor.kt:1049:75: No parameter with name 'proot' found. [kotlin]
+ProjectPackagesContent(project = session.project, proot = proot)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:77:54: Unresolved reference 'isVisibleTreeEntry'. [kotlin]
+val entries = dir.listFiles { _, name -> isVisibleTreeEntry(dir, name, showHidden) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:128:58: Unresolved reference 'isManagedTreeDirectory'. [kotlin]
+val direct = if (isSymbolicLink(deep) || isManagedTreeDirectory(deep)) emptyList() else children(deep)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:167:52: Unresolved reference 'isVisibleTreeEntry'. [kotlin]
+current.listFiles { _, name -> isVisibleTreeEntry(current, name, showHidden) } ?: continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:171:73: Unresolved reference 'isManagedTreeDirectory'. [kotlin]
+if (child.isDirectory && !isSymbolicLink(child) && !isManagedTreeDirectory(child)) stack.add(child)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:194:54: Unresolved reference 'isVisibleTreeEntry'. [kotlin]
+directory.listFiles { _, name -> isVisibleTreeEntry(directory, name, showHidden) } ?: continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:197:72: Unresolved reference 'isManagedTreeDirectory'. [kotlin]
+if (!entry.isDirectory || isSymbolicLink(entry) || isManagedTreeDirectory(entry)) continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:207:47: Unresolved reference 'isVisibleTreeEntry'. [kotlin]
+(directory.listFiles { _, name -> isVisibleTreeEntry(directory, name, false) } ?: emptyArray())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/FileExplorerRepository.kt:332:51: Unresolved reference 'isManagedTreeDirectory'. [kotlin]
+directory.listFiles { _, name -> !isManagedTreeDirectory(File(directory, name)) && !name.startsWith(".") } ?: continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/ProjectFileWatcher.kt:83:44: Unresolved reference 'isVisibleTreeEntry'. [kotlin]
+dir.listFiles { _, name -> isVisibleTreeEntry(dir, name, includeHidden) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/explorer/ProjectFileWatcher.kt:86:69: Unresolved reference 'isManagedTreeDirectory'. [kotlin]
+.filter { it.isDirectory && !isSymbolicLink(it) && !isManagedTreeDirectory(it) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeComponents.kt:33:30: Unresolved reference 'HTML'. [kotlin]
+import com.codespace.ide.ide.HTML
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeComponents.kt:34:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:514:18: Unresolved reference 'GitHubTab'. [kotlin]
+3 -> GitHubTab(session = session)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:526:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:528:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text(t.name, fontSize = 14.sp, fontFamily = FontFamily.Monospace) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:530:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.fillMaxWidth()) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:597:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = { opMenu = false; newSubmenu = false }) { Text("Close") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:602:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:604:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text(session.project.name, fontSize = 14.sp) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:606:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.fillMaxWidth()) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:652:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = { treeMoreOpen = false }) { Text("Close") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:661:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:664:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Text(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:674:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.fillMaxWidth()) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:746:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:806:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = { pickOp = null; if (isCreate) newKind = null }) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:813:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:815:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Rename") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:817:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+OutlinedTextField(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:823:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:848:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { renameFor = null }) { Text("Cancel") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:852:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:854:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Delete?") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:855:22: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+text = { Text("\"${confirmDel!!.name}\" will be removed.") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:857:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:874:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { confirmDel = null }) { Text("Cancel") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:878:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:880:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Project transaction history") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:882:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:883:83: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Modifier.fillMaxWidth().heightIn(max = 420.dp).verticalScroll(rememberScrollState()),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/FileTreeDrawer.kt:927:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = { showTransactionHistory = false }) { Text("Close") } },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/GitSheet.kt:28:28: Unresolved reference 'guestProjectPath'. [kotlin]
+bridge.run("cd " + guestProjectPath(session.project) + " && $cmd")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/GitSheet.kt:30:5: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/GitSheet.kt:32:19: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Git — ${session.project.name}", fontSize = 15.sp) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/GitSheet.kt:34:13: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.fillMaxWidth()) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/filetree/GitSheet.kt:62:27: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = onDismiss) { Text("Close") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubPublish.kt:112:49: Unresolved reference 'isManagedTreeDirectory'. [kotlin]
+} else if (directory != root && isManagedTreeDirectory(directory)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubPublish.kt:269:52: Unresolved reference 'isHiddenTreeDir'. [kotlin]
+} || path.split('/').any { isHiddenTreeDir(it) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:492:60: Unresolved reference 'defaultPythonGitIgnore'. [kotlin]
+if (!ignore.exists()) ignore.writeText(defaultPythonGitIgnore())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:793:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:795:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Import ${repo.name}?", fontSize = 15.sp) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:797:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Text(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:804:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = { doClone(repo) }) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:809:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = { cloneFor = null }) { Text("Cancel") }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:814:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:816:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Branches", color = Color(IdeTheme.TEXT)) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:818:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.verticalScroll(rememberScrollState())) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:818:48: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.verticalScroll(rememberScrollState())) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:829:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = { showBranches = false }) { Text("Close") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:833:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:835:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Create branch", color = Color(IdeTheme.TEXT)) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:837:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:846:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = { createBranch() }) { Text("Create", color = Color(IdeTheme.ACCENT)) } },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/github/GitHubScreens.kt:847:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { showCreateBranch = false }) { Text("Cancel") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/gui/GuiLaunch.kt:400:17: Unresolved reference 'VIEW_SHIM_VERSION'. [kotlin]
+val v = VIEW_SHIM_VERSION
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/gui/GuiLaunch.kt:405:68: Unresolved reference 'VIEW_SHIM_SOURCE'. [kotlin]
+b.append("cat > \"\$__vd/ide_view_shim.py\" <<'PYEOF'\n" + VIEW_SHIM_SOURCE + "\nPYEOF\n")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/gui/GuiLaunch.kt:406:70: Unresolved reference 'VIEW_MPL_BACKEND_SOURCE'. [kotlin]
+b.append("cat > \"\$__vd/ide_mpl_backend.py\" <<'PYEOF'\n" + VIEW_MPL_BACKEND_SOURCE + "\nPYEOF\n")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/IdeHome.kt:194:17: Unresolved reference 'InterpreterTab'. [kotlin]
+InterpreterTab(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/IdeHome.kt:204:17: Unresolved reference 'GlobalTerminalTab'. [kotlin]
+GlobalTerminalTab(proot = proot, visible = tab == HomeTab.Terminal)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/LearnTab.kt:28:19: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val lessons = remember { builtinLessons() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/LearnTab.kt:28:30: Unresolved reference 'builtinLessons'. [kotlin]
+val lessons = remember { builtinLessons() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/LearnTab.kt:36:71: Argument type mismatch: actual type is 'Int', but 'Lesson' was expected. [kotlin]
+modifier = Modifier.fillMaxWidth().clickable { onOpen(l) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/LearnTab.kt:39:28: Unresolved reference 'title' on receiver of type 'Int'. [kotlin]
+Text(l.title, fontWeight = FontWeight.Bold, fontSize = 15.sp)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/LearnTab.kt:40:28: Unresolved reference 'subtitle' on receiver of type 'Int'. [kotlin]
+Text(l.subtitle, color = Color(IdeTheme.DIM), fontSize = 12.sp)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/NewProjectPage.kt:361:42: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val result = withContext(Dispatchers.IO) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/NewProjectPage.kt:362:33: Unresolved reference 'cloneGitHubRepository'. [kotlin]
+cloneGitHubRepository(token, repositoryUrl, repositoryBranch, destination, context.cacheDir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/NewProjectPage.kt:372:80: Unresolved reference 'defaultPythonGitIgnore'. [kotlin]
+if (!ignore.exists()) ignore.writeText(defaultPythonGitIgnore())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:113:21: Unresolved reference 'venvPythonReady'. [kotlin]
+val venvReady = venvPythonReady(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:114:19: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val popular = remember { popularPackages() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:114:30: Unresolved reference 'popularPackages'. [kotlin]
+val popular = remember { popularPackages() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:115:27: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val filteredPopular = remember(searchQuery, popular) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:116:26: Unresolved reference 'it'. [kotlin]
+popular.filter { it.name.contains(searchQuery, true) || it.desc.contains(searchQuery, true) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:116:65: Unresolved reference 'it'. [kotlin]
+popular.filter { it.name.contains(searchQuery, true) || it.desc.contains(searchQuery, true) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:185:47: Unresolved reference 'projectVenvName'. [kotlin]
+if (venvReady) "${projectVenvName(project.dir)} · isolated environment"
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:315:41: Function invocation 'size(...)' expected. [kotlin]
+Text("${filteredPopular.size} results", fontSize = 9.sp, color = Color(IdeTheme.DIM))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:320:39: Cannot infer type for value parameter 'pkg'. Specify it explicitly. [kotlin]
+filteredPopular.forEach { pkg ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:321:63: Unresolved reference 'name'. [kotlin]
+val isInstalled = installedNames.contains(pkg.name.lowercase())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:322:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Card(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:325:43: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+colors = CardDefaults.cardColors(containerColor = Color(IdeTheme.CARD)),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:326:130: Unresolved reference 'name'. [kotlin]
+onClick = { if (!isInstalled && !state.isBusy && !state.isLoading && venvReady) viewModel.installPopular(pkg.name) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:332:38: Unresolved reference 'name'. [kotlin]
+) { Text(pkg.name.take(1).uppercase(), color = Color(IdeTheme.ACCENT), fontWeight = FontWeight.Bold, fontSize = 12.sp) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:335:38: Unresolved reference 'name'. [kotlin]
+Text(pkg.name, fontWeight = FontWeight.SemiBold, fontSize = 12.sp, color = Color(IdeTheme.TEXT))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:336:38: Unresolved reference 'desc'. [kotlin]
+Text(pkg.desc, color = Color(IdeTheme.DIM), fontSize = 9.sp)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:382:22: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+packageToRemove?.let { name ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:383:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:385:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Uninstall $name?") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:386:22: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+text = { Text("This removes the package from ${project.name}'s virtual environment. Other projects are not affected.") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:388:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = { packageToRemove = null; viewModel.uninstall(name) }) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/PackagesTab.kt:392:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { packageToRemove = null }) { Text("Cancel") }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:276:37: Unresolved reference 'projectPythonVersionTitle'. [kotlin]
+projectPythonVersionTitle(p.dir),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:283:42: Unresolved reference 'projectVenvName'. [kotlin]
+val vv = projectVenvName(p.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:284:45: Unresolved reference 'venvPythonReady'. [kotlin]
+val ready = venvPythonReady(p.dir, vv)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:353:56: Unresolved reference 'projectVenvName'. [kotlin]
+venvText = projectVenvName(p.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:370:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:372:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Change Python — ${targetProject.name}") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:374:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:393:25: Unresolved reference 'venvPythonReady'. [kotlin]
+if (venvPythonReady(targetProject.dir)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:401:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:408:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { pythonVersionFor = null }) { Text("Cancel") } },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:415:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:417:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Virtualenv — ${venvFor!!.name}") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:419:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:427:29: Unresolved reference 'venvPythonReady'. [kotlin]
+if (venvPythonReady(venvFor!!.dir)) "Status: real virtualenv ✓" else "Status: plain dir (not built yet)",
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:438:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:443:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { venvFor = null }) { Text("Cancel") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:447:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:449:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Rename project") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:451:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+OutlinedTextField(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:457:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:465:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { renameFor = null }) { Text("Cancel") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:469:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:471:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Delete project?") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:472:22: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+text = { Text("\"${confirmDel!!.name}\" and all its files will be removed.") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:474:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/home/ProjectsTab.kt:482:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { confirmDel = null }) { Text("Cancel") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:12:44: Unresolved reference 'NbCell'. [kotlin]
+private val dirtyCells = LinkedHashSet<NbCell>()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:26:20: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+dirtyCells.removeAll { it.id == cellId }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:26:30: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+dirtyCells.removeAll { it.id == cellId }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:26:35: Unresolved reference 'id'. [kotlin]
+dirtyCells.removeAll { it.id == cellId }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:45:22: Unresolved reference 'NbCell'. [kotlin]
+fun append(cell: NbCell, output: NbOutput) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:45:38: Unresolved reference 'NbOutput'. [kotlin]
+fun append(cell: NbCell, output: NbOutput) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:46:44: Unresolved reference 'id'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:46:56: Unresolved reference 'outputs'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:46:72: Unresolved reference 'it'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:46:89: Unresolved reference 'it'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:47:31: Unresolved reference 'text'. [kotlin]
+val incoming = output.text.length + output.data.values.sumOf(String::length)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:47:52: Unresolved reference 'data'. [kotlin]
+val incoming = output.text.length + output.data.values.sumOf(String::length)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:49:22: 'operator' modifier is required on 'fun <T> Comparable<T>.compareTo(other: T): Int'. [kotlin]
+if (incoming > MAX_CELL_OUTPUT_CHARS - currentSize) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:51:38: Unresolved reference 'text'. [kotlin]
+val limitedText = output.text.take(remaining)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:52:55: Unresolved reference 'length'. [kotlin]
+var dataBudget = (remaining - limitedText.length).coerceAtLeast(0)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:54:35: Operator call 'component1()' is ambiguous for destructuring of type '??? (Unresolved name: next)'. Applicable candidates: fun <T> Array<out T>.component1(): T fun ByteArray.component1(): Byte fun ShortArray.component1(): Short fun IntArray.component1(): Int fun LongArray.component1(): Long fun FloatArray.component1(): Float fun DoubleArray.component1(): Double fun BooleanArray.component1(): Boolean fun CharArray.component1(): Char fun <T> List<T>.component1(): T fun <K, V> Map.Entry<K, V>.component1(): K fun UIntArray.component1(): UInt fun ULongArray.component1(): ULong fun UByteArray.component1(): UByte fun UShortArray.component1(): UShort [kotlin]
+for ((mime, value) in output.data) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:54:35: Operator call 'component2()' is ambiguous for destructuring of type '??? (Unresolved name: next)'. Applicable candidates: fun <T> Array<out T>.component2(): T fun ByteArray.component2(): Byte fun ShortArray.component2(): Short fun IntArray.component2(): Int fun LongArray.component2(): Long fun FloatArray.component2(): Float fun DoubleArray.component2(): Double fun BooleanArray.component2(): Boolean fun CharArray.component2(): Char fun <T> List<T>.component2(): T fun <K, V> Map.Entry<K, V>.component2(): V fun UIntArray.component2(): UInt fun ULongArray.component2(): ULong fun UByteArray.component2(): UByte fun UShortArray.component2(): UShort [kotlin]
+for ((mime, value) in output.data) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:54:42: Method 'iterator()' is ambiguous for this expression. Applicable candidates: fun <T> Enumeration<T>.iterator(): Iterator<T> fun <T> Iterator<T>.iterator(): Iterator<T> fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>> fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>> fun CharSequence.iterator(): CharIterator fun BufferedInputStream.iterator(): ByteIterator [kotlin]
+for ((mime, value) in output.data) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:54:42: Unresolved reference 'data'. [kotlin]
+for ((mime, value) in output.data) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:58:36: Unresolved reference 'length'. [kotlin]
+dataBudget -= part.length
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:60:18: Unresolved reference 'outputs'. [kotlin]
+cell.outputs.add(NbOutput(output.kind, output.name, limitedText, limitedData, output.ename, output.evalue, output.execCount))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:60:30: Unresolved reference 'NbOutput'. [kotlin]
+cell.outputs.add(NbOutput(output.kind, output.name, limitedText, limitedData, output.ename, output.evalue, output.execCount))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:60:46: Unresolved reference 'kind'. [kotlin]
+cell.outputs.add(NbOutput(output.kind, output.name, limitedText, limitedData, output.ename, output.evalue, output.execCount))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:60:59: Unresolved reference 'name'. [kotlin]
+cell.outputs.add(NbOutput(output.kind, output.name, limitedText, limitedData, output.ename, output.evalue, output.execCount))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:60:98: Unresolved reference 'ename'. [kotlin]
+cell.outputs.add(NbOutput(output.kind, output.name, limitedText, limitedData, output.ename, output.evalue, output.execCount))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:60:112: Unresolved reference 'evalue'. [kotlin]
+cell.outputs.add(NbOutput(output.kind, output.name, limitedText, limitedData, output.ename, output.evalue, output.execCount))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:60:127: Unresolved reference 'execCount'. [kotlin]
+cell.outputs.add(NbOutput(output.kind, output.name, limitedText, limitedData, output.ename, output.evalue, output.execCount))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:61:18: Unresolved reference 'outputs'. [kotlin]
+cell.outputs.add(NbOutput("stream", text = "\n… output truncated by PySpace (cell output limit) …"))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:61:30: Unresolved reference 'NbOutput'. [kotlin]
+cell.outputs.add(NbOutput("stream", text = "\n… output truncated by PySpace (cell output limit) …"))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:62:30: Unresolved reference 'id'. [kotlin]
+outputSizes[cell.id] = MAX_CELL_OUTPUT_CHARS
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:63:18: Unresolved reference 'notifyOutputChanged'. [kotlin]
+cell.notifyOutputChanged()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:66:14: Unresolved reference 'outputs'. [kotlin]
+cell.outputs.add(output)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:67:26: Unresolved reference 'id'. [kotlin]
+outputSizes[cell.id] = currentSize + incoming
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:68:14: Unresolved reference 'notifyOutputChanged'. [kotlin]
+cell.notifyOutputChanged()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:71:28: Unresolved reference 'NbCell'. [kotlin]
+fun appendStream(cell: NbCell, name: String, text: String) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:72:44: Unresolved reference 'id'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:72:56: Unresolved reference 'outputs'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:72:72: Unresolved reference 'it'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:72:89: Unresolved reference 'it'. [kotlin]
+val currentSize = outputSizes[cell.id] ?: cell.outputs.sumOf { it.text.length + it.data.values.sumOf(String::length) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:76:25: Unresolved reference 'outputs'. [kotlin]
+val last = cell.outputs.lastOrNull()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:77:34: Unresolved reference 'kind' on receiver of type 'Any'. [kotlin]
+if (last != null && last.kind == "stream" && last.name == name) last.text += piece
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:77:59: Unresolved reference 'name' on receiver of type 'Any'. [kotlin]
+if (last != null && last.kind == "stream" && last.name == name) last.text += piece
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:77:78: Unresolved reference 'text' on receiver of type 'Any'. [kotlin]
+if (last != null && last.kind == "stream" && last.name == name) last.text += piece
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:78:43: Unresolved reference 'outputs'. [kotlin]
+else if (piece.isNotEmpty()) cell.outputs.add(NbOutput("stream", name, piece))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:78:55: Unresolved reference 'NbOutput'. [kotlin]
+else if (piece.isNotEmpty()) cell.outputs.add(NbOutput("stream", name, piece))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:80:26: Unresolved reference 'id'. [kotlin]
+outputSizes[cell.id] = newSize
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:82:18: Unresolved reference 'outputs'. [kotlin]
+cell.outputs.add(NbOutput("stream", name, "\n… output truncated by PySpace (cell output limit) …"))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:82:30: Unresolved reference 'NbOutput'. [kotlin]
+cell.outputs.add(NbOutput("stream", name, "\n… output truncated by PySpace (cell output limit) …"))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:83:30: Unresolved reference 'id'. [kotlin]
+outputSizes[cell.id] = MAX_CELL_OUTPUT_CHARS
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:93:34: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val changed = dirtyCells.toList()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:95:17: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+changed.forEach { it.notifyOutputChanged() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:95:25: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+changed.forEach { it.notifyOutputChanged() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookOutputBuffer.kt:95:30: Unresolved reference 'notifyOutputChanged'. [kotlin]
+changed.forEach { it.notifyOutputChanged() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookRepository.kt:12:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookRepository.kt:31:40: Unresolved reference 'NbDoc'. [kotlin]
+suspend fun parse(source: String): NbDoc? {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookRepository.kt:34:16: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+return withContext(dispatchers.main) { snapshot.toUiDocument() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookRepository.kt:34:57: Unresolved reference 'toUiDocument' on receiver of type 'NbDocSnapshot'. [kotlin]
+return withContext(dispatchers.main) { snapshot.toUiDocument() }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookRepository.kt:37:37: Unresolved reference 'NbDoc'. [kotlin]
+suspend fun serialize(document: NbDoc): String {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookRepository.kt:47:62: Unresolved reference 'NbDoc'. [kotlin]
+fun sessionFor(file: File, project: PyProject, document: NbDoc, tab: OpenTab): NotebookViewModel {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookRepository.kt:68:43: Unresolved reference 'NbDoc'. [kotlin]
+viewModel.setPersistenceHandler { doc, revision ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:15:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:24:14: Unresolved reference 'NbDoc'. [kotlin]
+val doc: NbDoc,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:28:41: Unresolved reference 'NbCell'. [kotlin]
+private val inflight = HashMap<Int, NbCell>()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:31:26: Unresolved reference 'NbCell'. [kotlin]
+private var current: NbCell? = null
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:33:34: Unresolved reference 'NbDoc'. [kotlin]
+private var pendingDocument: NbDoc? = null
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:35:44: Unresolved reference 'NbDoc'. [kotlin]
+private var persistDocument: (suspend (NbDoc, Int) -> Unit)? = null
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:74:49: Unresolved reference 'NbDoc'. [kotlin]
+fun setPersistenceHandler(handler: suspend (NbDoc, Int) -> Unit) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:81:38: Unresolved reference 'NbDoc'. [kotlin]
+fun replaceDocument(replacement: NbDoc) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:101:44: Unresolved reference 'NbDoc'. [kotlin]
+private fun applyDocument(replacement: NbDoc) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:106:13: Unresolved reference 'cells'. [kotlin]
+doc.cells.clear()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:107:13: Unresolved reference 'cells'. [kotlin]
+doc.cells.addAll(replacement.cells)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:107:38: Unresolved reference 'cells'. [kotlin]
+doc.cells.addAll(replacement.cells)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:108:13: Unresolved reference 'meta'. [kotlin]
+doc.meta = replacement.meta
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:108:32: Unresolved reference 'meta'. [kotlin]
+doc.meta = replacement.meta
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:109:13: Unresolved reference 'nbformat'. [kotlin]
+doc.nbformat = replacement.nbformat
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:109:36: Unresolved reference 'nbformat'. [kotlin]
+doc.nbformat = replacement.nbformat
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:110:13: Unresolved reference 'minor'. [kotlin]
+doc.minor = replacement.minor
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:110:33: Unresolved reference 'minor'. [kotlin]
+doc.minor = replacement.minor
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:111:13: Unresolved reference 'useIds'. [kotlin]
+doc.useIds = replacement.useIds
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:111:34: Unresolved reference 'useIds'. [kotlin]
+doc.useIds = replacement.useIds
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:133:25: Unresolved reference 'NbCell'. [kotlin]
+fun run(cells: List<NbCell>) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:136:22: Unresolved reference 'type'. [kotlin]
+if (cell.type != "code" || cell.source.isBlank() || cell.queued || cell.running) continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:136:45: Unresolved reference 'source'. [kotlin]
+if (cell.type != "code" || cell.source.isBlank() || cell.queued || cell.running) continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:136:70: Unresolved reference 'queued'. [kotlin]
+if (cell.type != "code" || cell.source.isBlank() || cell.queued || cell.running) continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:136:85: Unresolved reference 'running'. [kotlin]
+if (cell.type != "code" || cell.source.isBlank() || cell.queued || cell.running) continue
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:137:37: Unresolved reference 'id'. [kotlin]
+if (!queue.enqueue(cell.id)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:141:18: Unresolved reference 'queued'. [kotlin]
+cell.queued = true
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:148:17: Unresolved reference 'cells'. [kotlin]
+doc.cells.firstOrNull { it.id == cellId }?.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:148:37: Unresolved reference 'it'. [kotlin]
+doc.cells.firstOrNull { it.id == cellId }?.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:148:56: Unresolved reference 'queued'. [kotlin]
+doc.cells.firstOrNull { it.id == cellId }?.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:155:24: Unresolved reference 'cells'. [kotlin]
+val next = doc.cells.firstOrNull { it.id == nextId }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:155:44: Unresolved reference 'it'. [kotlin]
+val next = doc.cells.firstOrNull { it.id == nextId }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:182:22: Unresolved reference 'queued' on receiver of type 'Any'. [kotlin]
+next.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:183:22: Unresolved reference 'running' on receiver of type 'Any'. [kotlin]
+next.running = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:184:36: Unresolved reference 'NbOutput'. [kotlin]
+appendOutput(next, NbOutput(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:195:18: Unresolved reference 'queued' on receiver of type 'Any'. [kotlin]
+next.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:196:18: Unresolved reference 'running' on receiver of type 'Any'. [kotlin]
+next.running = true
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:197:18: Unresolved reference 'outputs' on receiver of type 'Any'. [kotlin]
+next.outputs.clear()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:198:38: Unresolved reference 'id' on receiver of type 'Any'. [kotlin]
+outputBuffer.remove(next.id)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:202:37: Unresolved reference 'source' on receiver of type 'Any'. [kotlin]
+kernel.execute(id, next.source)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:207:36: Unresolved reference 'NbCell'. [kotlin]
+private fun appendOutput(cell: NbCell, output: NbOutput) = outputBuffer.append(cell, output)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:207:52: Unresolved reference 'NbOutput'. [kotlin]
+private fun appendOutput(cell: NbCell, output: NbOutput) = outputBuffer.append(cell, output)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:208:36: Unresolved reference 'NbCell'. [kotlin]
+private fun appendStream(cell: NbCell, name: String, text: String) = outputBuffer.appendStream(cell, name, text)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:216:30: Method 'iterator()' is ambiguous for this expression. Applicable candidates: fun <T> Enumeration<T>.iterator(): Iterator<T> fun <T> Iterator<T>.iterator(): Iterator<T> fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>> fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>> fun CharSequence.iterator(): CharIterator fun BufferedInputStream.iterator(): ByteIterator [kotlin]
+for (cell in doc.cells) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:216:30: Unresolved reference 'cells'. [kotlin]
+for (cell in doc.cells) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:231:30: Method 'iterator()' is ambiguous for this expression. Applicable candidates: fun <T> Enumeration<T>.iterator(): Iterator<T> fun <T> Iterator<T>.iterator(): Iterator<T> fun <K, V> Map<out K, V>.iterator(): Iterator<Map.Entry<K, V>> fun <K, V> MutableMap<K, V>.iterator(): MutableIterator<MutableMap.MutableEntry<K, V>> fun CharSequence.iterator(): CharIterator fun BufferedInputStream.iterator(): ByteIterator [kotlin]
+for (cell in doc.cells) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:231:30: Unresolved reference 'cells'. [kotlin]
+for (cell in doc.cells) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:238:22: Unresolved reference 'running'. [kotlin]
+current?.running = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:239:22: Unresolved reference 'queued'. [kotlin]
+current?.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:258:45: Unresolved reference 'NbOutput'. [kotlin]
+"display" -> appendOutput(cell, NbOutput("display", data = outputBuffer.dataOf(message)))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:259:44: Unresolved reference 'NbOutput'. [kotlin]
+"result" -> appendOutput(cell, NbOutput("result", data = outputBuffer.dataOf(message), execCount = message.optInt("execution_count")))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:264:36: Unresolved reference 'NbOutput'. [kotlin]
+appendOutput(cell, NbOutput(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:270:22: Unresolved reference 'outputs' on receiver of type 'Any'. [kotlin]
+cell.outputs.clear()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:271:22: Unresolved reference 'notifyOutputChanged' on receiver of type 'Any'. [kotlin]
+cell.notifyOutputChanged()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:272:42: Unresolved reference 'id' on receiver of type 'Any'. [kotlin]
+outputBuffer.remove(cell.id)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:275:22: Unresolved reference 'running' on receiver of type 'Any'. [kotlin]
+cell.running = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:276:22: Unresolved reference 'execCount' on receiver of type 'Any'. [kotlin]
+cell.execCount = message.optInt("execution_count")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:279:42: Unresolved reference 'id' on receiver of type 'Any'. [kotlin]
+outputBuffer.remove(cell.id)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:308:22: Unresolved reference 'queued'. [kotlin]
+current?.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:309:22: Unresolved reference 'running'. [kotlin]
+current?.running = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:326:17: Unresolved reference 'cells'. [kotlin]
+doc.cells.forEach { cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:326:33: Cannot infer type for value parameter 'cell'. Specify it explicitly. [kotlin]
+doc.cells.forEach { cell ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:327:22: Unresolved reference 'running'. [kotlin]
+cell.running = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:328:22: Unresolved reference 'queued'. [kotlin]
+cell.queued = false
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:353:40: Unresolved reference 'NbCell'. [kotlin]
+fun add(index: Int, type: String): NbCell {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:354:30: Unresolved reference 'NbCell'. [kotlin]
+if (disposed) return NbCell(newCellId(), type, "", null, emptyList())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:354:37: Unresolved reference 'newCellId'. [kotlin]
+if (disposed) return NbCell(newCellId(), type, "", null, emptyList())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:354:66: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+if (disposed) return NbCell(newCellId(), type, "", null, emptyList())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:355:20: Unresolved reference 'NbCell'. [kotlin]
+val cell = NbCell(newCellId(), type, "", null, emptyList())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:355:27: Unresolved reference 'newCellId'. [kotlin]
+val cell = NbCell(newCellId(), type, "", null, emptyList())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:355:56: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val cell = NbCell(newCellId(), type, "", null, emptyList())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:356:13: Unresolved reference 'cells'. [kotlin]
+doc.cells.add(index.coerceIn(0, doc.cells.size), cell)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:356:45: Unresolved reference 'cells'. [kotlin]
+doc.cells.add(index.coerceIn(0, doc.cells.size), cell)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:363:19: Unresolved reference 'not' for operator '!'. [kotlin]
+if (index !in doc.cells.indices) return
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:363:27: Unresolved reference 'cells'. [kotlin]
+if (index !in doc.cells.indices) return
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:364:27: Unresolved reference 'cells'. [kotlin]
+val removed = doc.cells.removeAt(index)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:371:17: Unresolved reference 'cells'. [kotlin]
+if (doc.cells.isEmpty()) doc.cells.add(NbCell(newCellId(), "code", "", null, emptyList()))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:371:38: Unresolved reference 'cells'. [kotlin]
+if (doc.cells.isEmpty()) doc.cells.add(NbCell(newCellId(), "code", "", null, emptyList()))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:371:48: Unresolved reference 'NbCell'. [kotlin]
+if (doc.cells.isEmpty()) doc.cells.add(NbCell(newCellId(), "code", "", null, emptyList()))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:371:55: Unresolved reference 'newCellId'. [kotlin]
+if (doc.cells.isEmpty()) doc.cells.add(NbCell(newCellId(), "code", "", null, emptyList()))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:371:86: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+if (doc.cells.isEmpty()) doc.cells.add(NbCell(newCellId(), "code", "", null, emptyList()))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:378:19: Unresolved reference 'not' for operator '!'. [kotlin]
+if (index !in doc.cells.indices || to !in doc.cells.indices) return
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:378:27: Unresolved reference 'cells'. [kotlin]
+if (index !in doc.cells.indices || to !in doc.cells.indices) return
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:378:47: Unresolved reference 'not' for operator '!'. [kotlin]
+if (index !in doc.cells.indices || to !in doc.cells.indices) return
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:378:55: Unresolved reference 'cells'. [kotlin]
+if (index !in doc.cells.indices || to !in doc.cells.indices) return
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:379:24: Unresolved reference 'cells'. [kotlin]
+val cell = doc.cells.removeAt(index)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:380:13: Unresolved reference 'cells'. [kotlin]
+doc.cells.add(to, cell)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:384:28: Unresolved reference 'NbCell'. [kotlin]
+fun clearOutputs(cell: NbCell) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:386:14: Unresolved reference 'outputs'. [kotlin]
+cell.outputs.clear()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:387:14: Unresolved reference 'notifyOutputChanged'. [kotlin]
+cell.notifyOutputChanged()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:388:14: Unresolved reference 'execCount'. [kotlin]
+cell.execCount = null
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/notebook/NotebookViewModel.kt:389:34: Unresolved reference 'id'. [kotlin]
+outputBuffer.remove(cell.id)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/packages/PopularPackages.kt:2:30: Unresolved reference 'HTML'. [kotlin]
+import com.codespace.ide.ide.HTML
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/presentation/IdeRootEnvironment.kt:37:55: Unresolved reference 'workspaceRoot'. [kotlin]
+workspace = withContext(Dispatchers.IO) { workspaceRoot(appContext) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectDeletionManager.kt:98:33: Unresolved reference 'deleteRecursivelySafe'. [kotlin]
+if (staged.exists() && !deleteRecursivelySafe(staged)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:126:39: Unresolved reference 'createProjectOnDisk'. [kotlin]
+withContext(dispatchers.io) { createProjectOnDisk(workspace, name, venvName, pythonVersionId) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:130:13: Unresolved reference 'renameFile'. [kotlin]
+renameFile(project.dir, newName)?.let { renamed -> PyProject(renamed.name, renamed) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:130:47: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+renameFile(project.dir, newName)?.let { renamed -> PyProject(renamed.name, renamed) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:130:47: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+renameFile(project.dir, newName)?.let { renamed -> PyProject(renamed.name, renamed) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:130:53: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+renameFile(project.dir, newName)?.let { renamed -> PyProject(renamed.name, renamed) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:130:82: Unresolved reference 'name'. [kotlin]
+renameFile(project.dir, newName)?.let { renamed -> PyProject(renamed.name, renamed) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:134:39: Unresolved reference 'deleteRecursivelySafe'. [kotlin]
+withContext(dispatchers.io) { deleteRecursivelySafe(project.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:154:25: Unresolved reference 'projectPythonVersionId'. [kotlin]
+val versionId = projectPythonVersionId(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectRepository.kt:162:27: Unresolved reference 'projectPythonInterpreterGuestPath'. [kotlin]
+val interpreter = projectPythonInterpreterGuestPath(project.dir).replace("\"", "\\\"")
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectVenv.kt:75:57: Unresolved reference 'projectPythonInterpreterGuestPath'. [kotlin]
+if (guestAwareExists(p)) "./$v/bin/python" else projectPythonInterpreterGuestPath(dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectVenv.kt:77:9: Unresolved reference 'projectPythonInterpreterGuestPath'. [kotlin]
+projectPythonInterpreterGuestPath(dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/projects/ProjectWorkspace.kt:290:40: Unresolved reference 'mainTemplate'. [kotlin]
+File(dir, "main.py").writeText(mainTemplate(name))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/ProjectWebResolverRepository.kt:34:17: Unresolved reference 'webAutoRun'. [kotlin]
+webAutoRun(project.dir, activeFile, originalSourceText, immediate, pythonBin)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/ProjectWebResolverRepository.kt:36:17: Unresolved reference 'resolveProjectWebRun'. [kotlin]
+resolveProjectWebRun(project, activeFile, sourceSnapshot, pythonBin)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/ProjectWebResolverRepository.kt:40:14: Unresolved reference 'detectWebServerInProject'. [kotlin]
+else detectWebServerInProject(project, activeFile, sourceSnapshot) ?: immediate
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/ProjectWebResolverRepository.kt:53:13: Unresolved reference 'webAutoRun'. [kotlin]
+webAutoRun(projectDir, activeFile, sourceText, immediate, pythonBin)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/ProjectWebResolverRepository.kt:55:13: Unresolved reference 'resolveProjectWebRun'. [kotlin]
+resolveProjectWebRun(project, activeFile, sourceText, pythonBin)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/ProjectWebResolverRepository.kt:63:13: Unresolved reference 'detectWebServerInProject'. [kotlin]
+detectWebServerInProject(project, activeFile, sourceText)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/RunSourceAnalyzer.kt:43:13: Unresolved reference 'detectGuiFromSource'. [kotlin]
+detectGuiFromSource(fileName, source)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/RunSourceAnalyzer.kt:50:41: Unresolved reference 'frameViewEligible'. [kotlin]
+gui != null && !forceGui && frameViewEligible(gui, source)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/run/RunSourceAnalyzer.kt:62:51: Unresolved reference 'detectWebServerFromSource'. [kotlin]
+if (source.isNullOrBlank()) null else detectWebServerFromSource(fileName, source)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsOverlay.kt:110:9: Unresolved reference 'ScreenSlide'. [kotlin]
+ScreenSlide(dir = if (section == null) -1f else 1f) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsOverlay.kt:112:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+LazyColumn(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsOverlay.kt:141:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.fillMaxSize().padding(horizontal = 16.dp)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsOverlay.kt:148:25: Unresolved reference 'PackagesTab'. [kotlin]
+PackagesTab(runtimeState.projects, packageManagerRepository, Modifier.weight(1f))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsOverlay.kt:152:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsOverlay.kt:152:62: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp)) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsOverlay.kt:188:37: Unresolved reference 'GitHubAccountSettingsCard'. [kotlin]
+"GitHub" -> GitHubAccountSettingsCard()
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:123:19: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+removeTarget?.let { option ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:124:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:126:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Remove Python ${option.version}?") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:127:22: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+text = { Text("The interpreter files will be removed. Projects using this version are protected and must be changed to another interpreter first.") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:128:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = { onRemove(option.id); removeTarget = null }) { Text("Remove", color = Color(IdeTheme.WARN)) } },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:129:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { removeTarget = null }) { Text("Cancel") } },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:530:17: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:532:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Restore clean system?") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:533:30: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+text = { Text("This replaces the current system image with the original bundled image. Projects and PySpace settings remain untouched. Packages installed manually inside the system and other custom system changes will be lost. Close all terminals, running scripts, notebooks and GUI sessions first. The current system is kept temporarily so recovery can roll back if activation fails.") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:534:39: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+confirmButton = { TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/settings/SettingsRuntimeCards.kt:549:39: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { recoveryConfirm = false }) { Text("Cancel") } }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeBridgeCoordinator.kt:59:62: Unresolved reference 'safeReadText'. [kotlin]
+if (hostFile != null && hostFile.isFile) safeReadText(hostFile) else null
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeBridgeCoordinator.kt:68:50: Unresolved reference 'guiLaunchPrefix'. [kotlin]
+val guiPrefix = if (gui != null) guiLaunchPrefix(gui, exe, frame = useFrame) else ""
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeBridgeCoordinator.kt:81:34: Unresolved reference 'guestProjectPath'. [kotlin]
+val gp = guestProjectPath(it)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeBridgeCoordinator.kt:85:46: Unresolved reference 'guestProjectPath'. [kotlin]
+val webRoot = project?.let { guestProjectPath(it) } ?: cwd
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeBridgeCoordinator.kt:133:17: Unresolved reference 'onMainThread'. [kotlin]
+onMainThread {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeBridgeCoordinator.kt:179:17: Unresolved reference 'onMainThread'. [kotlin]
+onMainThread { if (hostActive.get()) endTerminalRun(id) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeBridgeCoordinator.kt:184:17: Unresolved reference 'onMainThread'. [kotlin]
+onMainThread {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeLaunchRestoreState.kt:4:30: Unresolved reference 'PyProject'. [kotlin]
+import com.codespace.ide.ide.PyProject
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeLaunchRestoreState.kt:10:25: Unresolved reference 'PyProject'. [kotlin]
+val missingProject: PyProject?,
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeLaunchRestoreState.kt:24:59: Unresolved reference 'PyProject'. [kotlin]
+restoredScreen = IdeScreen.Editor(PyProject(directory.name, directory)),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeLaunchRestoreState.kt:27:35: Unresolved reference 'PyProject'. [kotlin]
+val missing = PyProject(directory.name, directory)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:371:28: Unresolved reference 'safeReadText'. [kotlin]
+else sourceText ?: safeReadText(file)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:378:32: Unresolved reference 'guestProjectPath'. [kotlin]
+projectGuestPath = guestProjectPath(project),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:405:13: Unresolved reference 'projectPythonBin'. [kotlin]
+projectPythonBin(project.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:476:42: Unresolved reference 'guiLaunchPrefix'. [kotlin]
+val guiPrefix = if (gui != null) guiLaunchPrefix(gui, pythonBin, frame = useFrame) else ""
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:493:32: Unresolved reference 'guestProjectPath'. [kotlin]
+projectGuestPath = guestProjectPath(project),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:727:21: Unresolved reference 'projectVenvName'. [kotlin]
+val v = projectVenvName(p.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:728:31: Unresolved reference 'projectPythonInterpreterGuestPath'. [kotlin]
+val interpreter = projectPythonInterpreterGuestPath(p.dir)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:732:71: Unresolved reference 'projectPythonVersionId'. [kotlin]
+PythonRuntimeInstaller(ubuntu, proot).ensureInstalled(projectPythonVersionId(p.dir))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:734:29: Unresolved reference 'guestProjectPath'. [kotlin]
+"cd " + guestProjectPath(p) + " && test -x \"$interpreter\" || exit 21; rm -rf \"$v\" && " +
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShell.kt:749:50: Unresolved reference 'guestProjectPath'. [kotlin]
+val activation = "source " + guestProjectPath(p) + "/$v/bin/activate\r"
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:87:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:89:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("The app closed unexpectedly last time") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:91:52: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.foundation.layout.Column(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:92:68: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Modifier.heightIn(max = 320.dp).verticalScroll(rememberScrollState())
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:102:44: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.material3.TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:114:44: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.material3.TextButton(onClick = { CrashLog.clear(context); lastCrash = null }) { Text("Close") }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:124:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:126:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Already running") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:128:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Text(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:135:44: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.material3.TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:145:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Row {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:164:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:166:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Open web page") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:168:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:181:44: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.material3.TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:188:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Row {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:208:21: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+missingProject?.let { project ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:209:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:211:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Project is no longer available") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:213:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:233:44: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.material3.TextButton(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:263:44: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.material3.TextButton(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:281:29: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+pendingImportSelection?.let { pending ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:282:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:286:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Column {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:295:50: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.foundation.lazy.LazyColumn(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:342:44: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+androidx.compose.material3.TextButton(onClick = { pendingImportSelection = null }) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:359:5: Unresolved reference 'OverlaySlideUp'. [kotlin]
+OverlaySlideUp(visible = inEditor && displayOpen) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:360:9: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Box(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:365:17: Unresolved reference 'FrameViewer'. [kotlin]
+FrameViewer(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:377:20: Unresolved reference 'DisplayViewer'. [kotlin]
+} else DisplayViewer(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:404:5: Unresolved reference 'OverlaySlideUp'. [kotlin]
+OverlaySlideUp(visible = browserOpen) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:405:9: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Box(Modifier.fillMaxSize().background(Color(IdeTheme.BG))) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:406:13: Unresolved reference 'BrowserScreen'. [kotlin]
+BrowserScreen(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:409:52: Unresolved reference 'it'. [kotlin]
+onOpenExternal = { openExternalUrl(it) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:418:5: Unresolved reference 'OverlaySlideUp'. [kotlin]
+OverlaySlideUp(visible = settingsOpen) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:419:9: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+Box(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:423:13: Unresolved reference 'SettingsOverlay'. [kotlin]
+SettingsOverlay(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:454:14: Unresolved reference 'drawerDrag' on receiver of type 'Modifier'. [kotlin]
+.drawerDrag(drawerShift, ideScope, false, drawerCommitPx)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:459:17: Unresolved reference 'FileTreeDrawer'. [kotlin]
+FileTreeDrawer(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:465:36: Cannot infer type for value parameter 'f'. Specify it explicitly. [kotlin]
+onOpenFile = { f ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:469:38: Cannot infer type for value parameter 'f'. Specify it explicitly. [kotlin]
+onJumpToLine = { f, ln ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:469:41: Cannot infer type for value parameter 'ln'. Specify it explicitly. [kotlin]
+onJumpToLine = { f, ln ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:471:44: Unresolved reference 'absolutePath'. [kotlin]
+es.jumpRequest = f.absolutePath to ln
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:471:57: Cannot infer type for type parameter 'A'. Specify it explicitly. [kotlin]
+es.jumpRequest = f.absolutePath to ln
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:471:57: Cannot infer type for type parameter 'B'. Specify it explicitly. [kotlin]
+es.jumpRequest = f.absolutePath to ln
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:492:30: Unresolved reference 'IdeHome'. [kotlin]
+is IdeScreen.Home -> IdeHome(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:502:33: Unresolved reference 'it'. [kotlin]
+onTab = { homeTab = it },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:503:57: Unresolved reference 'it'. [kotlin]
+onOpenProject = { screen = IdeScreen.Editor(it) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:504:62: Unresolved reference 'it'. [kotlin]
+onProjectGone = { clearDeletedProjectStateForDir(it) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:505:30: Cannot infer type for value parameter 'lesson'. Specify it explicitly. [kotlin]
+onOpenLesson = { lesson ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:510:48: Cannot infer type for type parameter 'T'. Specify it explicitly. [kotlin]
+val (lp, lessonFile) = withContext(Dispatchers.IO) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:510:48: Operator call 'component1()' is ambiguous for destructuring of type 'uninferred ??? (Unknown type for type parameter T)'. Applicable candidates: fun <T> Array<out T>.component1(): T fun ByteArray.component1(): Byte fun ShortArray.component1(): Short fun IntArray.component1(): Int fun LongArray.component1(): Long fun FloatArray.component1(): Float fun DoubleArray.component1(): Double fun BooleanArray.component1(): Boolean fun CharArray.component1(): Char fun <T> List<T>.component1(): T fun <K, V> Map.Entry<K, V>.component1(): K fun UIntArray.component1(): UInt fun ULongArray.component1(): ULong fun UByteArray.component1(): UByte fun UShortArray.component1(): UShort [kotlin]
+val (lp, lessonFile) = withContext(Dispatchers.IO) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:510:48: Operator call 'component2()' is ambiguous for destructuring of type 'uninferred ??? (Unknown type for type parameter T)'. Applicable candidates: fun <T> Array<out T>.component2(): T fun ByteArray.component2(): Byte fun ShortArray.component2(): Short fun IntArray.component2(): Int fun LongArray.component2(): Long fun FloatArray.component2(): Float fun DoubleArray.component2(): Double fun BooleanArray.component2(): Boolean fun CharArray.component2(): Char fun <T> List<T>.component2(): T fun <K, V> Map.Entry<K, V>.component2(): V fun UIntArray.component2(): UInt fun ULongArray.component2(): ULong fun UByteArray.component2(): UByte fun UShortArray.component2(): UShort [kotlin]
+val (lp, lessonFile) = withContext(Dispatchers.IO) {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:511:43: Unresolved reference 'ensureLessonsProject'. [kotlin]
+val project = ensureLessonsProject(workspace)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:512:65: Unresolved reference 'fileName'. [kotlin]
+val file = File(project.dir, lesson.fileName)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:513:39: Unresolved reference 'isFile'. [kotlin]
+if (!file.isFile) file.writeText(lesson.code)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:513:62: Argument type mismatch: actual type is 'Int', but 'String' was expected. [kotlin]
+if (!file.isFile) file.writeText(lesson.code)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:514:37: Cannot infer type for type parameter 'A'. Specify it explicitly. [kotlin]
+project to file
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:514:37: Cannot infer type for type parameter 'B'. Specify it explicitly. [kotlin]
+project to file
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:600:31: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+val curVenv = curProject?.let { projectVenvGuestPath(it.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:600:37: Unresolved reference 'projectVenvGuestPath'. [kotlin]
+val curVenv = curProject?.let { projectVenvGuestPath(it.dir) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:663:67: Unresolved reference 'venvPythonReady'. [kotlin]
+(projectVenvBusy || venvBusyBuild || !venvPythonReady(curProject.dir))
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:666:44: Unresolved reference 'projectVenvName'. [kotlin]
+venvName = projectVenvName(curProject.dir),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:673:29: Unresolved reference 'RunStrip'. [kotlin]
+RunStrip(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:678:52: Unresolved reference 'it'. [kotlin]
+onStop = { stopRun(it) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:681:25: Unresolved reference 'TerminalTabs'. [kotlin]
+TerminalTabs(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:685:51: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+workDir = curProject?.let { guestProjectRoot(it) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:685:57: Unresolved reference 'guestProjectRoot'. [kotlin]
+workDir = curProject?.let { guestProjectRoot(it) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:715:37: Unresolved reference 'ConsoleHeader'. [kotlin]
+ConsoleHeader(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:747:50: Unresolved reference 'ProblemsView'. [kotlin]
+PanelTab.Problems -> ProblemsView(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:751:48: Cannot infer type for value parameter 'f'. Specify it explicitly. [kotlin]
+onOpenFile = { f, line -> editorSession?.let { es ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:751:51: Cannot infer type for value parameter 'line'. Specify it explicitly. [kotlin]
+onOpenFile = { f, line -> editorSession?.let { es ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:752:56: Unresolved reference 'absolutePath'. [kotlin]
+es.jumpRequest = f.absolutePath to line
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:752:69: Cannot infer type for type parameter 'A'. Specify it explicitly. [kotlin]
+es.jumpRequest = f.absolutePath to line
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:752:69: Cannot infer type for type parameter 'B'. Specify it explicitly. [kotlin]
+es.jumpRequest = f.absolutePath to line
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:755:43: Cannot infer type for value parameter 'file'. Specify it explicitly. [kotlin]
+onFix = { file, diagnostic ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:755:49: Cannot infer type for value parameter 'diagnostic'. Specify it explicitly. [kotlin]
+onFix = { file, diagnostic ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:758:71: Unresolved reference 'canonicalFile'. [kotlin]
+it.file.canonicalFile == file.canonicalFile
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:774:52: Cannot infer type for value parameter 'diagnostic'. Specify it explicitly. [kotlin]
+onImport = { file, diagnostic ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:776:85: Unresolved reference 'canonicalFile'. [kotlin]
+runCatching { it.file.canonicalFile == file.canonicalFile }.getOrDefault(false)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:789:60: Cannot infer type for type parameter 'R'. Specify it explicitly. [kotlin]
+filePath = runCatching { file.canonicalPath }.getOrDefault(file.absolutePath),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:789:79: Unresolved reference 'canonicalPath'. [kotlin]
+filePath = runCatching { file.canonicalPath }.getOrDefault(file.absolutePath),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:789:113: Unresolved reference 'absolutePath'. [kotlin]
+filePath = runCatching { file.canonicalPath }.getOrDefault(file.absolutePath),
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:800:47: Unresolved reference 'DebugView'. [kotlin]
+PanelTab.Debug -> DebugView(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:805:46: Unresolved reference 'TestView'. [kotlin]
+PanelTab.Test -> TestView(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:809:53: Cannot infer type for value parameter 'complete'. Specify it explicitly. [kotlin]
+onSaveBeforeRun = { complete ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:812:53: Unresolved reference 'complete'. [kotlin]
+if (vm == null) complete(true, null)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:813:87: Unresolved reference 'complete'. [kotlin]
+else vm.saveDirtyDocuments { success, _, error -> complete(success, error) }
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:815:52: Cannot infer type for value parameter 'path'. Specify it explicitly. [kotlin]
+onOpenLocation = { path, line ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:815:58: Cannot infer type for value parameter 'line'. Specify it explicitly. [kotlin]
+onOpenLocation = { path, line ->
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:820:68: Unresolved reference 'isAbsolute'. [kotlin]
+val target = if (candidate.isAbsolute) candidate else File(project.dir, path)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:828:48: Unresolved reference 'CameraPanel'. [kotlin]
+PanelTab.Camera -> CameraPanel(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/shell/IdeShellContent.kt:831:52: Cannot infer type for value parameter 'f'. Specify it explicitly. [kotlin]
+onStartRequest = { f -> phoneCam.startFromUi(f, camPermission) },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/terminal/TerminalTabs.kt:146:9: Unresolved reference 'IdeAlertDialog'. [kotlin]
+IdeAlertDialog(
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/terminal/TerminalTabs.kt:148:23: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+title = { Text("Restart terminal?") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/terminal/TerminalTabs.kt:149:22: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+text = { Text("The current shell process and its visible transcript will be cleared. Files and installed Ubuntu packages will not be affected.") },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/terminal/TerminalTabs.kt:151:17: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+TextButton(onClick = {
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/terminal/TerminalTabs.kt:157:31: @Composable invocations can only happen from the context of a @Composable function [kotlin]
+dismissButton = { TextButton(onClick = { confirmRestart = false }) { Text("Cancel") } },
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/testing/ProjectTestController.kt:21:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/testing/ProjectTestController.kt:119:24: Unresolved reference 'guestProjectPath'. [kotlin]
+val root = guestProjectPath(project)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/testing/ProjectTestController.kt:215:59: Unresolved reference 'guestProjectPath'. [kotlin]
+proot.runOnce(runnerCommand(runnerScript, guestProjectPath(project), projectPythonBin(project.dir), args), 150)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/testing/ProjectTestController.kt:215:86: Unresolved reference 'projectPythonBin'. [kotlin]
+proot.runOnce(runnerCommand(runnerScript, guestProjectPath(project), projectPythonBin(project.dir), args), 150)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/testing/ProjectTestController.kt:246:24: Unresolved reference 'guestProjectPath'. [kotlin]
+val rootPath = guestProjectPath(project)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/testing/ProjectTestController.kt:265:69: Unresolved reference 'projectPythonBin'. [kotlin]
+val command = runnerCommand(runnerScript, rootPath, projectPythonBin(project.dir), args)
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/ide/testing/TestModels.kt:5:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
+error: /storage/emulated/0/Android/data/com.tyron.code/files/codeassist/projects/gradle-import-1794983985016/app/src/main/kotlin/com/codespace/ide/presentation/notebook/NotebookUiModels.kt:10:30: Unresolved reference 'JSON'. [kotlin]
+import com.codespace.ide.ide.JSON
